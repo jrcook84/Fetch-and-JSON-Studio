@@ -13,7 +13,7 @@ window.addEventListener("load", function(){
         <ul>
         <li> ${data[i].hoursInSpace}</li>
         <li> ${data[i].active}</li>
-        <li> ${data[i].skills}</li>
+        <li> ${data[i].skills.join(", ")}</li>
     </ul>
     </div>
     <img class="avatar" src="${data[i].picture}">
